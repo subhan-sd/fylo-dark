@@ -160,3 +160,48 @@ hr{
 hr:hover{
     color: #fafafa;
 }
+
+/* Testimonial Section */
+.testimonial{
+    /* background-color: indigo; */
+    width: 90%;
+    margin: auto;
+    padding: 20px 20px;
+}
+
+.qoute-bg{
+    margin: -20px -10px;
+    position: absolute;
+    z-index: -9;
+}
+
+.card1{
+    padding: 20px;
+    width: 24%;
+    background-color: hsl(219, 30%, 18%);
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;  
+}
+
+.profile {
+    justify-content: space-between; 
+    width: 49%;
+    display: flex;
+}
+
+.name{
+    font-weight: 700;
+}
+
+.profile .detail{
+    font-size: 10px;
+}
+
+.profile img{
+    border-radius: 30px;
+    width: 30px;
+    height: 30px;
+}
