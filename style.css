@@ -167,6 +167,7 @@ hr:hover{
     width: 90%;
     margin: auto;
     padding: 20px 20px;
+    margin-top: 100px;
 }
 
 .qoute-bg{
@@ -177,8 +178,12 @@ hr:hover{
 
 .card1{
     padding: 20px;
-    width: 24%;
+    width: 28%;
     background-color: hsl(219, 30%, 18%);
+}
+
+.card1 p{
+    font-size: 20px;
 }
 
 .cards{
@@ -204,4 +209,58 @@ hr:hover{
     border-radius: 30px;
     width: 30px;
     height: 30px;
+}
+
+/* Email Section */
+.email{
+    padding: 20px 10px;
+    background-color: hsl(219, 30%, 18%);
+    width: 60%;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+
+.email .hight{
+    margin-bottom:20px ;
+}
+
+.email .detail{
+    margin-bottom:20px ;
+    text-align: center;
+}
+
+.email input{
+    border-radius: 50px;
+    border: none;
+}
+
+.email .validasi{
+    width: 70%;
+    margin: auto;
+}
+
+.email form input{
+    width: 60%;
+    padding: 15px 20px;
+}
+
+.email form button{
+    font-weight: 700;
+    color: #fafafa;
+    background-image: linear-gradient( to right, hsl(176, 68%, 64%) , hsl(198, 60%, 50%));
+    border-radius: 30px;
+    border: none;
+    padding: 15px 30px;
+    margin-left:20px ;
+}
+
+.email form button:hover{
+    transition: 0.5s;
+    background-image: linear-gradient( to right, hsl(176, 68%, 64%) , hsl(176, 68%, 64%));
+}
+
+.email .error{
+    margin: 8px 20px;
+    color:#f54242 ;
 }
